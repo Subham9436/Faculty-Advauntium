@@ -5,6 +5,7 @@ body {
     height: 100vh; /* Ensure the body takes the full height */
     background:url("../img/Best-Black-Backgrounds-Free-Download.jpg"); /*  Background Image */
     background-size: cover; /* Cover the entire body */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: center; /* Center the background image */
     color: white; /* Change text color to white for better contrast */
 }
@@ -155,4 +156,19 @@ body {
     font-size:x-large;
     margin-left: 250px;
     margin-right: 250px;
+}
+.carousel {
+    width: 700px; /* Set your desired width */
+    height: 400px; /* Set your desired height */
+    margin: auto; /* Center the carousel */
+}
+
+.carousel-item {
+    height: 400px; /* Match the height of the carousel */
+}
+
+.carousel-item img {
+    width: 100%; /* Make images responsive */
+    height: 100%; /* Ensure images fill the carousel item */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
 }
