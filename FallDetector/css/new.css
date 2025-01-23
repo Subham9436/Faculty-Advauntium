@@ -7,6 +7,7 @@ body {
     background-size: cover; /* Cover the entire body */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Optional: Fix the background image while scrolling */
     color: white; /* Change text color to white for better contrast */
 }
 
