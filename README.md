@@ -1,2 +1,2 @@
-# FallDetector
+# Faculty Advauntium
 Hackathon Project
