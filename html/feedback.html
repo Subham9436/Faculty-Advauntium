@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Feedback System</title>
+    <link rel="stylesheet" href="../css/feedback.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Faculty Feedback Form</h2>
+        <form id="feedbackForm">
+            <label for="facultyName">Faculty Name:</label>
+            <input type="text" id="facultyName" required>
+
+            <label for="teaching">Teaching Quality:</label>
+            <div class="rating" id="teaching">
+                ★★★★★
+            </div>
+
+            <label for="communication">Communication Skills:</label>
+            <div class="rating" id="communication">
+                ★★★★★
+            </div>
+
+            <label for="overall">Overall Performance:</label>
+            <div class="rating" id="overall">
+                ★★★★★
+            </div>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" rows="3"></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <h2>Recent Feedback</h2>
+        <div id="feedbackList"></div>
+    </div>
+
+    <script src="../js/feedback.js"></script>
+</body>
+</html>
+
